@@ -12,7 +12,7 @@ ember install ember-cli-slick-carousel
 ## How-to-use
 ```
 {{#slick-carousel
-  class="ember-carousel
+  class="ember-carousel"
   autoplay=true
   autoplaySpeed=2000
   slidesToShow=1
