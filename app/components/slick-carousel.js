@@ -1,0 +1,1 @@
+export { default } from 'ember-cli-slick-carousel/components/slick-carousel';
