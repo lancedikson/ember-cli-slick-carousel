@@ -2,7 +2,9 @@ module.exports = {
   name: 'ember-cli-slick-carousel',
 
   afterInstall: function() {
-    return this.addBowerPackageToProject('slick-carousel');
+    return this.addBowerPackagesToProject([
+      { name: 'slick-carousel', target: '1.5.8' }
+    ]);
   },
 
   included: function(app) {
