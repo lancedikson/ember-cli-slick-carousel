@@ -1,5 +1,5 @@
 module.exports = {
-  name: 'ember-cli-slick-carousel',
+  normalizeEntityName: function() {},
 
   afterInstall: function() {
     return this.addBowerPackagesToProject([
