@@ -1,12 +1,31 @@
-# Ember-cli-slick-carousel
+# ember-cli-slick-carousel
+[![Code Climate](https://codeclimate.com/github/igorpreston/ember-cli-slick-carousel/badges/gpa.svg)](https://codeclimate.com/github/igorpreston/ember-cli-slick-carousel)
 
-This README outlines the details of collaborating on this Ember addon.
+This addon is drop-in and ready-to-use solution for integrating [Slick.js](http://kenwheeler.github.io/slick/) carousel into your Ember app. All features of the carousel are supported.
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+```
+ember install ember-cli-slick-carousel
+```
+
+## How-to-use
+```
+{{#slick-carousel
+  class="ember-carousel
+  autoplay=true
+  autoplaySpeed=2000
+  slidesToShow=1
+  slidesToScroll=1
+  dots=true
+  fade=true}}
+  <div><img src="http://placehold.it/300?text=Slide+1"></div>
+  <div><img src="http://placehold.it/300?text=Slide+2"></div>
+  <div><img src="http://placehold.it/300?text=Slide+3"></div>
+{{/slick-carousel}}
+```
+Look up [Slick settings attributes](https://github.com/kenwheeler/slick) to customize component behavior.
+Also, do not forget to customize slider with CSS as you like.
 
 ## Running
 
